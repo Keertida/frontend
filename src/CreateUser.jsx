@@ -24,11 +24,11 @@ const CreateUser = () => {
             <form onSubmit={Submit}>
                 <h2>Add User</h2>
                 <div>
-                    <label>Name</label>
+                    <label>Name:</label>
                     <input type='text' onChange={(e)=>setName(e.target.value)}/>
                 </div>
                 <div>
-                    <label>Email</label>
+                    <label>Email:</label>
                     <input type='email'  onChange={(e)=>setEmail(e.target.value)}/>
                 </div>
                 <div>
